@@ -1,0 +1,183 @@
+{
+    "name": "configuration",
+    "type": "class",
+    "description": "A value the app remembers under a key: an account token, a menu left closed.\nRead from a record like everything else — `<uuid>.yml` — so the key is a field\ninside it and never the file name: what a record is called says its identity\nand nothing more. Two records may then claim the same key, and whoever writes\nthem answers for that.\nThe value is stored as JSON because a configuration is rarely a string for\nlong: a list of hosts, a size, a flag. What it means is the reader's business.",
+    "properties": [
+        {
+            "name": "id",
+            "type": "Symfony\\Component\\Uid\\Uuid"
+        },
+        {
+            "name": "path",
+            "type": "string"
+        },
+        {
+            "name": "key",
+            "type": "string"
+        },
+        {
+            "name": "value",
+            "type": "mixed",
+            "default": null
+        },
+        {
+            "name": "preload",
+            "type": "bool",
+            "default": false
+        }
+    ],
+    "methods": [
+        {
+            "type": "method",
+            "name": "buildEntityPath",
+            "parameters": [
+                {
+                    "type": "string",
+                    "name": "className"
+                }
+            ],
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getEntityKeyName",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getEntityShortName",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getId",
+            "return": {
+                "type": "Symfony\\Component\\Uid\\Uuid"
+            }
+        },
+        {
+            "type": "method",
+            "name": "setId",
+            "parameters": [
+                {
+                    "type": "Symfony\\Component\\Uid\\Uuid",
+                    "name": "id"
+                }
+            ],
+            "return": {
+                "type": "void"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getTableizedName",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getCamelName",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "__construct",
+            "parameters": [
+                {
+                    "type": "string",
+                    "name": "path"
+                }
+            ]
+        },
+        {
+            "type": "method",
+            "name": "idFor",
+            "description": "The identity the record is named by, read straight off the file name.",
+            "parameters": [
+                {
+                    "type": "string",
+                    "name": "path"
+                }
+            ],
+            "return": {
+                "type": "Uuid"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getPath",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getKey",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "setKey",
+            "parameters": [
+                {
+                    "type": "string",
+                    "name": "key"
+                }
+            ],
+            "return": {
+                "type": "self"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getValue",
+            "return": {
+                "type": "mixed"
+            }
+        },
+        {
+            "type": "method",
+            "name": "setValue",
+            "parameters": [
+                {
+                    "type": "mixed",
+                    "name": "value"
+                }
+            ],
+            "return": {
+                "type": "self"
+            }
+        },
+        {
+            "type": "method",
+            "name": "isPreload",
+            "return": {
+                "type": "bool"
+            }
+        },
+        {
+            "type": "method",
+            "name": "setPreload",
+            "parameters": [
+                {
+                    "type": "bool",
+                    "name": "preload"
+                }
+            ],
+            "return": {
+                "type": "self"
+            }
+        }
+    ]
+}
