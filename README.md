@@ -1,6 +1,6 @@
 # symfony-platform
 
-Version: 2.0.1
+Version: 2.0.2
 
 The repository does not provide any concrete code that could be documented for now.
 
