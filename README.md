@@ -34,7 +34,6 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 - wexample/symfony-api: >=5.0.0
 - wexample/symfony-helpers: >=9.0.0
 - wexample/symfony-pseudocode: >=3.0.0
-- wexample/symfony-user: >=1.0.0
 
 ## Versioning & Compatibility Policy
 
