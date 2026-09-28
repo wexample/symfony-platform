@@ -1,4 +1,4 @@
-import AbstractApiRepository from '@wexample/js-api/Common/AbstractApiRepository';
+import AbstractApiRepository from '@wexample/js-api-entity/Common/AbstractApiRepository';
 import Configuration from '../Entity/Configuration.js';
 
 export default class ConfigurationRepository extends AbstractApiRepository<Configuration> {
