@@ -1,6 +1,6 @@
 # symfony-platform
 
-Version: 2.0.13
+Version: 2.0.14
 
 The repository does not provide any concrete code that could be documented for now.
 
@@ -31,7 +31,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 - doctrine/orm: ^3.0
 - symfony/uid: >=6.2
 - wexample/php-pseudocode: >=2.2.0
-- wexample/symfony-api: >=11.0.0
+- wexample/symfony-api: >=12.0.0
 - wexample/symfony-helpers: >=15.0.0
 - wexample/symfony-pseudocode: >=3.0.0
 
