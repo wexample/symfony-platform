@@ -10,3 +10,7 @@ services:
     Wexample\SymfonyPlatform\Api\Normalizer\:
         resource: '../../Api/Normalizer/*'
         tags: ['serializer.normalizer']
+
+    Wexample\SymfonyPlatform\Api\Controller\:
+        resource: '../../Api/Controller/'
+        tags: ['controller.service_arguments']

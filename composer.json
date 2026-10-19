@@ -22,7 +22,8 @@
     "wexample/php-pseudocode": ">=2.2.0",
     "wexample/symfony-api": ">=13.0.0",
     "wexample/symfony-helpers": ">=16.0.0",
-    "wexample/symfony-pseudocode": ">=3.0.0"
+    "wexample/symfony-pseudocode": ">=3.0.0",
+    "wexample/symfony-preference": ">=1.0.1"
   },
   "extra": {
     "install": {
