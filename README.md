@@ -1,6 +1,6 @@
 # symfony-platform
 
-Version: 2.1.0
+Version: 2.1.1
 
 The repository does not provide any concrete code that could be documented for now.
 
@@ -30,7 +30,7 @@ The suite includes packages for configuration management, file handling, prompts
 - symfony/uid: >=6.2
 - wexample/php-pseudocode: >=2.2.0
 - wexample/symfony-api: >=14.0.0
-- wexample/symfony-helpers: >=17.0.0
+- wexample/symfony-helpers: >=18.0.0
 - wexample/symfony-pseudocode: >=4.0.0
 - wexample/symfony-preference: >=2.0.0
 
