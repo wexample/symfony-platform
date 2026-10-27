@@ -3,7 +3,7 @@
   "description": "The assembled base of a management application: what every app of the kind keeps, starting with its configuration",
   "type": "library",
   "license": "MIT",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyPlatform\\": "src/"
@@ -20,7 +20,7 @@
     "doctrine/orm": "^3.0",
     "symfony/uid": ">=6.2",
     "wexample/php-pseudocode": ">=2.2.4",
-    "wexample/symfony-api": ">=14.0.5",
+    "wexample/symfony-api": ">=15.0.0",
     "wexample/symfony-helpers": ">=18.0.2",
     "wexample/symfony-pseudocode": ">=4.0.2",
     "wexample/symfony-preference": ">=2.0.2"
