@@ -16,7 +16,7 @@ use Wexample\SymfonyPreference\Service\PreferenceService;
  * it is kept is PreferenceService's business: the client is the same whatever
  * the app chose.
  */
-#[Route(path: 'api/preference/', name: 'api_preference_')]
+#[Route(path: '_api/preference/', name: 'api_preference_')]
 class PreferenceController extends AbstractApiController
 {
     #[Route(path: 'set', name: 'set', methods: [Request::METHOD_POST], options: AbstractController::ROUTE_OPTIONS_ONLY_EXPOSE)]
