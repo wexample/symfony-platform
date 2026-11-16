@@ -1,6 +1,6 @@
 # symfony-platform
 
-Version: 3.0.4
+Version: 4.0.0
 
 The assembled base of a management application: what every app of the kind keeps, starting with its configuration
 
